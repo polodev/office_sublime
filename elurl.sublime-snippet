@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+array(
+  'type'        => Controls_Manager::URL,
+  'id'          => '${1:id}',
+  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'default'     => array( 'url' => 'https://www.radiustheme.com/'),
+),
+
+]]></content>
+<tabTrigger>elurl</tabTrigger>
+<description>el url</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

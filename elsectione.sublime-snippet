@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+array(
+  'mode' => 'section_end',
+),
+]]></content>
+<tabTrigger>elsectione</tabTrigger>
+<description>el section end</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

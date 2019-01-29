@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+var_dump(${0});
+]]></content>
+<tabTrigger>vd</tabTrigger>
+<description>var_dump function call</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.function-call.php, support.function.var.php</scope>
+</snippet>

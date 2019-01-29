@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+array(
+  'type'        => Controls_Manager::MEDIA,
+  'id'          => '${1:id}',
+  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'default'     => [
+    'url' => Utils::get_placeholder_image_src(),
+  ]
+),
+
+]]></content>
+<tabTrigger>elmedia</tabTrigger>
+<description>media field</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

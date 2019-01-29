@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+echo '<pre>';
+echo '</pre>';${0}
+]]></content>
+<tabTrigger>prep</tabTrigger>
+<description>echo pre tag</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, support.function.construct.php</scope>
+</snippet>

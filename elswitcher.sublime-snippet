@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+array(
+  'type'        => Controls_Manager::SWITCHER,
+  'id'          => '${1:id}',
+  'label_on' => __( 'Show', 'koncreate-core' ),
+  'label_off' => __( 'Hide', 'koncreate-core' ),
+  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'default'     => "yes",
+),
+]]></content>
+<tabTrigger>elswitcher</tabTrigger>
+<description>el switcher</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

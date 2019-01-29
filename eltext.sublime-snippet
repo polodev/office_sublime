@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+array(
+  'type'        => Controls_Manager::TEXT,
+  'id'          => '${1:id}',
+  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'default'     => '${0:default_text}',
+),
+]]></content>
+<tabTrigger>eltext</tabTrigger>
+<description>el text</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

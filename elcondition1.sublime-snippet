@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+'condition'   => array( '${1:other_id}' => '${2:value}' ),${0}
+]]></content>
+<tabTrigger>elcondition1</tabTrigger>
+<description>elementor scaler field condition</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, string.quoted.single.php, punctuation.definition.string.begin.php</scope>
+</snippet>
