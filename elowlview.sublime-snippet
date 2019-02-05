@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<div class="owl-theme owl-carousel rt-owl-carousel" data-carousel-options="<?php echo esc_attr( \$data['owl_data'] );?>">
+]]></content>
+<tabTrigger>elowlview</tabTrigger>
+<description>owl carousel view class and data attribute</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

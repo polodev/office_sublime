@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+if (typeof \$.fn.owlCarousel == 'function') {
+  \$(".owl-custom-nav .owl-next").on('click', function () {
+    \$(this).closest('.owl-wrap').find('.owl-carousel').trigger('next.owl.carousel');
+  });
+  \$(".owl-custom-nav .owl-prev").on('click', function () {
+    \$(this).closest('.owl-wrap').find('.owl-carousel').trigger('prev.owl.carousel');
+  });
+  \$(".rt-owl-carousel").each(function () {
+    var options = \$(this).data('carousel-options');
+    \$(this).owlCarousel(options);
+  });
+}
+]]></content>
+<tabTrigger>elowljs</tabTrigger>
+<description>owl carousal js</description>
+<scope>source.js, meta.group.js, meta.block.js, meta.block.js</scope>
+</snippet>

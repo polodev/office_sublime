@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+array(
+  'type'    => Controls_Manager::COLOR,
+  'id'      => '${1:id}',
+  'label'   => __( '${2:Label}', 'koncreate-core' ),
+  'default' => '#444444',
+  'selectors' => array( '{{WRAPPER}} .rtin-${0}' => 'color: {{VALUE}}' ),
+),
+]]></content>
+<tabTrigger>elcolor</tabTrigger>
+<description>el color</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

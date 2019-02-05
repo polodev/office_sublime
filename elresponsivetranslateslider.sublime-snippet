@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+'cols_slider'  => array(
+  '1'  => __( '1 Col', 'koncreate-core' ),
+  '2'  => __( '2 Col', 'koncreate-core' ),
+  '3'  => __( '3 Col', 'koncreate-core' ),
+  '4'  => __( '4 Col', 'koncreate-core' ),
+  '5'  => __( '5 Col', 'koncreate-core' ),
+  '6'  => __( '6 Col', 'koncreate-core' ),
+),
+]]></content>
+<tabTrigger>elresponsivetranslateslider</tabTrigger>
+<description>el responsive translate slider</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>
