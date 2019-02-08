@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+\$categories = get_categories();
+\$category_dropdown = array( '0' => __( 'All Categories', 'koncreate-core' ) );
+
+foreach ( \$categories as \$category ) {
+	\$category_dropdown[\$category->term_id] = \$category->name;
+}
+]]></content>
+<tabTrigger>elcategorieslist</tabTrigger>
+<description>selecting all categories using get_categories function and prepare for select value</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>
