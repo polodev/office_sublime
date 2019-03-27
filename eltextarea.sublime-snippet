@@ -3,7 +3,7 @@
 array(
   'type'        => Controls_Manager::TEXTAREA,
   'id'          => '${1:id}',
-  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'label'       => esc_html__( '${2:label}', 'koncreate-core' ),
   'default'     => "${3:default}",
 ),
 ]]></content>

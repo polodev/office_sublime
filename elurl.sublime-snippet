@@ -3,7 +3,7 @@
 array(
   'type'        => Controls_Manager::URL,
   'id'          => '${1:id}',
-  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'label'       => esc_html__( '${2:label}', 'koncreate-core' ),
   'default'     => array( 'url' => 'https://www.radiustheme.com/'),
 ),
 

@@ -3,9 +3,9 @@
 array(
   'type'    => Controls_Manager::SELECT2,
   'id'      => '${1:id}',
-  'label'   => __( '${2:label}', 'koncreate-core' ),
+  'label'   => esc_html__( '${2:label}', 'koncreate-core' ),
   'options' => array(
-    '${3:key}' => __( '${4:value}', 'koncreate-core' ),
+    '${3:key}' => esc_html__( '${4:value}', 'koncreate-core' ),
   ),
   'default' => '${3:default_key}',
 ),

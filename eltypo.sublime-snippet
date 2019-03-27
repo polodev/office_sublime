@@ -5,7 +5,7 @@ array(
   'name' => '${1:name}',
   'mode'    => 'group',
   'id'      => '${2:id}',
-  'label'   => __( '${3:label}', 'koncreate-core' ),
+  'label'   => esc_html__( '${3:label}', 'koncreate-core' ),
   'scheme' => Scheme_Typography::TYPOGRAPHY_1,
   'selector' => '{{WRAPPER}} .rtin-text',
   'fields_options' => [

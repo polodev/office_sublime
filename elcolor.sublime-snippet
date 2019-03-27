@@ -3,7 +3,7 @@
 array(
   'type'    => Controls_Manager::COLOR,
   'id'      => '${1:id}',
-  'label'   => __( '${2:Label}', 'koncreate-core' ),
+  'label'   => esc_html__( '${2:Label}', 'koncreate-core' ),
   'default' => '#444444',
   'selectors' => array( '{{WRAPPER}} .rtin-${0}' => 'color: {{VALUE}}' ),
 ),

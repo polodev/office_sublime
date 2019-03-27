@@ -3,9 +3,9 @@
 array(
   'type'        => Controls_Manager::SWITCHER,
   'id'          => '${1:id}',
-  'label_on' => __( 'Show', 'koncreate-core' ),
-  'label_off' => __( 'Hide', 'koncreate-core' ),
-  'label'       => __( '${2:label}', 'koncreate-core' ),
+  'label_on' => esc_html__( 'Show', 'koncreate-core' ),
+  'label_off' => esc_html__( 'Hide', 'koncreate-core' ),
+  'label'       => esc_html__( '${2:label}', 'koncreate-core' ),
   'default'     => "yes",
 ),
 ]]></content>

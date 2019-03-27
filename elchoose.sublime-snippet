@@ -3,22 +3,22 @@
 array(
   'type'    => Controls_Manager::CHOOSE,
   'id'      => '${1:id}',
-  'label'   => __( '${2:label}', 'koncreate-core' ),
+  'label'   => esc_html__( '${2:label}', 'koncreate-core' ),
   'options' => array(
     'left' => [
-      'title' => __( 'Left', 'elementor' ),
+      'title' => esc_html__( 'Left', 'elementor' ),
       'icon' => 'fa fa-align-left',
     ],
     'center' => [
-      'title' => __( 'Center', 'elementor' ),
+      'title' => esc_html__( 'Center', 'elementor' ),
       'icon' => 'fa fa-align-center',
     ],
     'right' => [
-      'title' => __( 'Right', 'elementor' ),
+      'title' => esc_html__( 'Right', 'elementor' ),
       'icon' => 'fa fa-align-right',
     ],
     'justify' => [
-      'title' => __( 'Justified', 'elementor' ),
+      'title' => esc_html__( 'Justified', 'elementor' ),
       'icon' => 'fa fa-align-justify',
     ],
   ),

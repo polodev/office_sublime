@@ -3,17 +3,17 @@
 array(
 	'type'    => Controls_Manager::REPEATER,
 	'id'      => '${1:id}',
-	'label'   => __( '${2:label}', 'koncreate-core' ),
+	'label'   => esc_html__( '${2:label}', 'koncreate-core' ),
 	'fields'  => array(
 		array(
 			'type'  => Controls_Manager::MEDIA,
 			'name'  => 'image',
-			'label' => __( 'Image', 'koncreate-core' ),
+			'label' => esc_html__( 'Image', 'koncreate-core' ),
 		),
 		array(
 			'type'  => Controls_Manager::TEXT,
 			'name'  => 'url',
-			'label' => __( 'URL(optional)', 'koncreate-core' ),
+			'label' => esc_html__( 'URL(optional)', 'koncreate-core' ),
 		),
 	),
 ),
