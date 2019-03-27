@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$${1} = change_default(\$${1}, '${3}${2}', '${0}');
+
+]]></content>
+<tabTrigger>cd</tabTrigger>
+<description>change defa</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>
