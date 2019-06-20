@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-<?php esc_html_e( '${1}', 'koncreate${2}' );?>
+<?php esc_html_e( '${1}', 'optimax${2}' );?>
 ]]></content>
 <tabTrigger>phpehe</tabTrigger>
 <description>esc_html_e function with php block</description>

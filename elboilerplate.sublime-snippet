@@ -7,7 +7,7 @@
  * @version 1.0
  */
 
-namespace radiustheme\Koncreate_Core;
+namespace radiustheme\Optimax_Core;
 
 use Elementor\Controls_Manager;
 
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 class ${1:Class_Name} extends Custom_Widget_Base {
   public function __construct( \$data = [], \$args = null ){
-    \$this->rt_name = esc_html__( '${2:name}', 'koncreate-core' );
+    \$this->rt_name = esc_html__( '${2:name}', 'optimax-core' );
     \$this->rt_base = 'rt-${3:name-name}';
     parent::__construct( \$data, \$args );
   }
@@ -29,7 +29,7 @@ class ${1:Class_Name} extends Custom_Widget_Base {
       array(
         'mode'    => 'section_start',
         'id'      => 'sec_general',
-        'label'   => esc_html__( 'General', 'koncreate-core' ),
+        'label'   => esc_html__( 'General', 'optimax-core' ),
       ),
       ${0}
       array(

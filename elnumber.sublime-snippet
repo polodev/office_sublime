@@ -3,7 +3,7 @@
 array(
   'type'        => Controls_Manager::NUMBER,
   'id'          => '${1:id}',
-  'label'       => esc_html__( '${2:label}', 'koncreate-core' ),
+  'label'       => esc_html__( '${2:label}', 'optimax-core' ),
   'default'     => '${3:default}',
 ),
 ]]></content>
