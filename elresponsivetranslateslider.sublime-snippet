@@ -1,12 +1,12 @@
 <snippet>
 <content><![CDATA[
 'cols_slider'  => array(
-  '1'  => esc_html__( '1 Col', 'koncreate-core' ),
-  '2'  => esc_html__( '2 Col', 'koncreate-core' ),
-  '3'  => esc_html__( '3 Col', 'koncreate-core' ),
-  '4'  => esc_html__( '4 Col', 'koncreate-core' ),
-  '5'  => esc_html__( '5 Col', 'koncreate-core' ),
-  '6'  => esc_html__( '6 Col', 'koncreate-core' ),
+  '1'  => esc_html__( '1 Col', 'optimax-core' ),
+  '2'  => esc_html__( '2 Col', 'optimax-core' ),
+  '3'  => esc_html__( '3 Col', 'optimax-core' ),
+  '4'  => esc_html__( '4 Col', 'optimax-core' ),
+  '5'  => esc_html__( '5 Col', 'optimax-core' ),
+  '6'  => esc_html__( '6 Col', 'optimax-core' ),
 ),
 ]]></content>
 <tabTrigger>elresponsivetranslateslider</tabTrigger>
