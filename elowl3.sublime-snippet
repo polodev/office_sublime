@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 \$uniqueid = uniqid();
-\$owl_data = array(
+\$owl_data = [
   'nav'                => true,
   'navText'            => ['<i class="flaticon-left-arrow" aria-hidden="true"></i>', '<i class="flaticon-right-arrow" aria-hidden="true"></i>'],
   'navContainer'       => '#'.\$uniqueid,
@@ -12,38 +12,38 @@
   'autoplayHoverPause' => \$data['slider_stop_on_hover'] == 'yes' ? true : false,
   'loop'               => \$data['slider_loop'] == 'yes' ? true : false,
   'margin'             => 30,
-  'responsive'         => array(
-    '0'    => array(
+  'responsive'         => [
+    '0'    => [
       'items' => \$data['col_mobile_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-    '480'  => array(
+    ],
+    '480'  => [
       'items' => \$data['col_xs_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-    '768'  => array(
+    ],
+    '768'  => [
       'items' => \$data['col_sm_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-    '992'  => array(
+    ],
+    '992'  => [
       'items' => \$data['col_md_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-    '1200' => array(
+    ],
+    '1200' => [
       'items' => \$data['col_lg_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-  )
-);
+    ],
+  ]
+];
 \$data['owl_data'] = json_encode( \$owl_data );
 \$data['uniqueid'] = \$uniqueid;
 ]]></content>
-<tabTrigger>elowldata2</tabTrigger>
-<description>el owl data generate 2</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+<tabTrigger>elowl3</tabTrigger>
+<description>el owl 3</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
 </snippet>

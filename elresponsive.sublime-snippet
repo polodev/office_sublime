@@ -1,46 +1,48 @@
 <snippet>
 <content><![CDATA[
+
 // Responsive Columns for general
 // it will generate bootstrap column
-array(
+[
   'mode'    => 'section_start',
-  'condition'   => array( 'style' => array( 'style1', 'style2', 'style3', 'style5') ),
+  'condition'   => [ 'style' => [ 'style1', 'style2', 'style3', 'style5'] ],
   'id'      => 'sec_responsive',
   'label'   => esc_html__( 'Number of Responsive Columns', 'optimax-core' ),
-),
-array(
+],
+[
   'type'    => Controls_Manager::SELECT2,
   'id'      => 'col_lg',
   'label'   => esc_html__( 'Desktops: > 1199px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '4',
-),
-array(
+],
+[
   'type'    => Controls_Manager::SELECT2,
   'id'      => 'col_md',
   'label'   => esc_html__( 'Desktops: > 991px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '4',
-),
-array(
+],
+[
   'type'    => Controls_Manager::SELECT2,
   'id'      => 'col_sm',
   'label'   => esc_html__( 'Tablets: > 767px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '6',
-),
-array(
+],
+[
   'type'    => Controls_Manager::SELECT2,
   'id'      => 'col_xs',
   'label'   => esc_html__( 'Phones: < 768px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '12',
-),
-array(
+],
+[
   'mode' => 'section_end',
-),
+],
+
 ]]></content>
 <tabTrigger>elresponsive</tabTrigger>
-<description>elementor responsive section</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+<description>el responsive</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php</scope>
 </snippet>

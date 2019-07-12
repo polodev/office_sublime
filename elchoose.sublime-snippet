@@ -1,32 +1,32 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'    => Controls_Manager::CHOOSE,
-  'id'      => '${1:id}',
-  'label'   => esc_html__( '${2:label}', 'optimax-core' ),
-  'options' => array(
+  'id'      => 'id',
+  'label'   => esc_html__( 'label', 'optimax-core' ),
+  'options' => [
     'left' => [
       'title' => esc_html__( 'Left', 'elementor' ),
-      'icon' => 'fa fa-align-left',
+      'icon' => 'fas fa-align-left',
     ],
     'center' => [
       'title' => esc_html__( 'Center', 'elementor' ),
-      'icon' => 'fa fa-align-center',
+      'icon' => 'fas fa-align-center',
     ],
     'right' => [
       'title' => esc_html__( 'Right', 'elementor' ),
-      'icon' => 'fa fa-align-right',
+      'icon' => 'fas fa-align-right',
     ],
     'justify' => [
       'title' => esc_html__( 'Justified', 'elementor' ),
-      'icon' => 'fa fa-align-justify',
+      'icon' => 'fas fa-align-justify',
     ],
-  ),
+  ],
   'default' => 'left',
-  'selectors' => array( '{{WRAPPER}} .rtin-text' => 'text-align: {{VALUE}}' ),
-),
+  'selectors' => [ '{{WRAPPER}} .rtin-text' => 'text-align: {{VALUE}}' ],
+],
 ]]></content>
 <tabTrigger>elchoose</tabTrigger>
 <description>el choose</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.array.php, punctuation.section.array.begin.php</scope>
 </snippet>

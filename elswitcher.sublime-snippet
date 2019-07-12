@@ -1,13 +1,13 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'        => Controls_Manager::SWITCHER,
   'id'          => '${1:id}',
   'label_on' => esc_html__( 'Show', 'optimax-core' ),
   'label_off' => esc_html__( 'Hide', 'optimax-core' ),
   'label'       => esc_html__( '${2:label}', 'optimax-core' ),
   'default'     => "yes",
-),
+],
 ]]></content>
 <tabTrigger>elswitcher</tabTrigger>
 <description>el switcher</description>

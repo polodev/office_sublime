@@ -4,7 +4,7 @@ array(
   'type'        => Controls_Manager::URL,
   'id'          => '${1:id}',
   'label'       => esc_html__( '${2:label}', 'optimax-core' ),
-  'default'     => array( 'url' => 'https://www.radiustheme.com/'),
+  'default'     => [ 'url' => '#'],
 ),
 
 ]]></content>

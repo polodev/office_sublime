@@ -1,13 +1,13 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'        => Controls_Manager::NUMBER,
-  'id'          => '${1:id}',
-  'label'       => esc_html__( '${2:label}', 'optimax-core' ),
-  'default'     => '${3:default}',
-),
+  'id'          => 'id',
+  'label'       => esc_html__( 'label', 'optimax-core' ),
+  'default'     => 'default',
+],
 ]]></content>
 <tabTrigger>elnumber</tabTrigger>
-<description>el number</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+<description>elnumber</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.array.php, punctuation.section.array.begin.php</scope>
 </snippet>

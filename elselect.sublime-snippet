@@ -1,16 +1,17 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'    => Controls_Manager::SELECT2,
-  'id'      => '${1:id}',
-  'label'   => esc_html__( '${2:label}', 'optimax-core' ),
-  'options' => array(
-    '${3:key}' => esc_html__( '${4:value}', 'optimax-core' ),
-  ),
-  'default' => '${3:default_key}',
-),
+  'id'      => 'id',
+  'label'   => esc_html__( 'label', 'optimax-core' ),
+  'options' => [
+    'key' => esc_html__( 'value', 'optimax-core' ),
+  ],
+  'default' => 'key',
+],
+
 ]]></content>
 <tabTrigger>elselect</tabTrigger>
-<description>el select or select 2 </description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+<description>el select</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.array.php, punctuation.section.array.begin.php</scope>
 </snippet>

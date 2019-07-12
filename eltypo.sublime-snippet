@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'    => Group_Control_Typography::get_type(),
   'name' => '${1:name}',
   'mode'    => 'group',
@@ -22,7 +22,7 @@ array(
       ]
     ],
   ]
-),${0}
+],${0}
 ]]></content>
 <tabTrigger>eltypo</tabTrigger>
 <description>el typography</description>

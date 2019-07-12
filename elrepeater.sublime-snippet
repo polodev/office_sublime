@@ -1,25 +1,24 @@
 <snippet>
 <content><![CDATA[
-array(
-	'type'    => Controls_Manager::REPEATER,
-	'id'      => '${1:id}',
-	'label'   => esc_html__( '${2:label}', 'optimax-core' ),
-	'fields'  => array(
-		array(
-			'type'  => Controls_Manager::MEDIA,
-			'name'  => 'image',
-			'label' => esc_html__( 'Image', 'optimax-core' ),
-		),
-		array(
-			'type'  => Controls_Manager::TEXT,
-			'name'  => 'url',
-			'label' => esc_html__( 'URL(optional)', 'optimax-core' ),
-		),
-	),
-),
-
+[
+  'type'    => Controls_Manager::REPEATER,
+  'id'      => 'id',
+  'label'   => esc_html__( 'label', 'optimax-core' ),
+  'fields'  => [
+    [
+      'type'  => Controls_Manager::MEDIA,
+      'name'  => 'image',
+      'label' => esc_html__( 'Image', 'optimax-core' ),
+    ],
+    [
+      'type'  => Controls_Manager::TEXT,
+      'name'  => 'url',
+      'label' => esc_html__( 'URL(optional)', 'optimax-core' ),
+    ],
+  ],
+],
 ]]></content>
 <tabTrigger>elrepeater</tabTrigger>
 <description>el repeater</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.array.php, punctuation.section.array.begin.php</scope>
 </snippet>

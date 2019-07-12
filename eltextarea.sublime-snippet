@@ -1,11 +1,11 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'        => Controls_Manager::TEXTAREA,
   'id'          => '${1:id}',
   'label'       => esc_html__( '${2:label}', 'optimax-core' ),
   'default'     => "${3:default}",
-),
+],
 ]]></content>
 <tabTrigger>eltextarea</tabTrigger>
 <description>el textarea</description>

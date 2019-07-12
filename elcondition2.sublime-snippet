@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-'condition' => array( '${1:other_id}' => array( '${2:other_id_key}'${3:, }${0} ) ),
+'condition' => [ 'other_id' => [ 'other_id_key',  ] ],
 ]]></content>
 <tabTrigger>elcondition2</tabTrigger>
-<description>el condition array</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, string.quoted.single.php, punctuation.definition.string.begin.php</scope>
+<description>el condition 2</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, string.quoted.single.php, punctuation.definition.string.begin.php</scope>
 </snippet>

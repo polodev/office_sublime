@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+RDTheme::\$options['${0}']
+]]></content>
+<tabTrigger>rdo</tabTrigger>
+<description>rd option</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, source.php, meta.group.php, meta.path.php, support.class.php</scope>
+</snippet>
