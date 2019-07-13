@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-\$owl_data = array(
+\$owl_data = [
   'nav'                => true,
   'navText'            => ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
   'dots'               => false,
@@ -10,37 +10,37 @@
   'autoplayHoverPause' => \$data['slider_stop_on_hover'] == 'yes' ? true : false,
   'loop'               => \$data['slider_loop'] == 'yes' ? true : false,
   'margin'             => 30,
-  'responsive'         => array(
-    '0'    => array(
+  'responsive'         => [
+    '0'    => [
       'items' => \$data['col_mobile_slider'],
       'nav'   => false,
       'dots'  => false,
-    ),
-    '480'  => array(
+    ],
+    '480'  => [
       'items' => \$data['col_xs_slider'],
       'nav'   => false,
       'dots'  => false,
-    ),
-    '768'  => array(
+    ],
+    '768'  => [
       'items' => \$data['col_sm_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-    '992'  => array(
+    ],
+    '992'  => [
       'items' => \$data['col_md_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-    '1200' => array(
+    ],
+    '1200' => [
       'items' => \$data['col_lg_slider'],
       'nav'   => true,
       'dots'  => false,
-    ),
-  )
-);
+    ],
+  ]
+];
 \$data['owl_data'] = json_encode( \$owl_data );
 ]]></content>
 <tabTrigger>elowl2</tabTrigger>
-<description>owl carousel data generate</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+<description>el owl 2</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
 </snippet>

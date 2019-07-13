@@ -1,11 +1,11 @@
 <snippet>
 <content><![CDATA[
-array(
+[
 	'mode'    => 'section_start',
 	'id'      => '${1:id}',
 	'label'   => esc_html__( '${2:label}', 'optimax-core' ),
 	${3:'tab'     => Controls_Manager::TAB_STYLE,}${0}
-),
+],
 
 ]]></content>
 <tabTrigger>elsections</tabTrigger>

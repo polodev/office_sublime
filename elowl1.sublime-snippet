@@ -1,67 +1,68 @@
 <snippet>
 <content><![CDATA[
 // Slider options
-array(
-	'mode'        => 'section_start',
-	'id'          => 'sec_slider',
-	'label'       => esc_html__( 'Slider Options', 'optimax-core' ),
-),
-array(
-	'type'        => Controls_Manager::SWITCHER,
-	'id'          => 'slider_autoplay',
-	'label'       => esc_html__( 'Autoplay', 'optimax-core' ),
-	'label_on'    => esc_html__( 'On', 'optimax-core' ),
-	'label_off'   => esc_html__( 'Off', 'optimax-core' ),
-	'default'     => 'yes',
-	'description' => esc_html__( 'Enable or disable autoplay. Default: On', 'optimax-core' ),
-),
-array(
-	'type'        => Controls_Manager::SWITCHER,
-	'id'          => 'slider_stop_on_hover',
-	'label'       => esc_html__( 'Stop on Hover', 'optimax-core' ),
-	'label_on'    => esc_html__( 'On', 'optimax-core' ),
-	'label_off'   => esc_html__( 'Off', 'optimax-core' ),
-	'default'     => 'yes',
-	'description' => esc_html__( 'Stop autoplay on mouse hover. Default: On', 'optimax-core' ),
-	'condition'   => array( 'slider_autoplay' => 'yes' ),
-),
-array(
-	'type'    => Controls_Manager::SELECT2,
-	'id'      => 'slider_interval',
-	'label'   => esc_html__( 'Autoplay Interval', 'optimax-core' ),
-	'options' => array(
-		'5000' => esc_html__( '5 Seconds', 'optimax-core' ),
-		'4000' => esc_html__( '4 Seconds', 'optimax-core' ),
-		'3000' => esc_html__( '3 Seconds', 'optimax-core' ),
-		'2000' => esc_html__( '2 Seconds', 'optimax-core' ),
-		'1000' => esc_html__( '1 Second',  'optimax-core' ),
-	),
-	'default' => '5000',
-	'description' => esc_html__( 'Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds', 'optimax-core' ),
-	'condition'   => array( 'slider_autoplay' => 'yes' ),
-),
-array(
-	'type'    => Controls_Manager::NUMBER,
-	'id'      => 'slider_autoplay_speed',
-	'label'   => esc_html__( 'Autoplay Slide Speed', 'optimax-core' ),
-	'default' => 200,
-	'description' => esc_html__( 'Slide speed in milliseconds. Default: 200', 'optimax-core' ),
-	'condition'   => array( 'slider_autoplay' => 'yes' ),
-),
-array(
-	'type'        => Controls_Manager::SWITCHER,
-	'id'          => 'slider_loop',
-	'label'       => esc_html__( 'Loop', 'optimax-core' ),
-	'label_on'    => esc_html__( 'On', 'optimax-core' ),
-	'label_off'   => esc_html__( 'Off', 'optimax-core' ),
-	'default'     => 'yes',
-	'description' => esc_html__( 'Loop to first item. Default: On', 'optimax-core' ),
-),
-array(
-	'mode' => 'section_end',
-),${0}
+[
+  'mode'        => 'section_start',
+  'id'          => 'sec_slider',
+  'label'       => esc_html__( 'Slider Options', 'optimax-core' ),
+],
+[
+  'type'        => Controls_Manager::SWITCHER,
+  'id'          => 'slider_autoplay',
+  'label'       => esc_html__( 'Autoplay', 'optimax-core' ),
+  'label_on'    => esc_html__( 'On', 'optimax-core' ),
+  'label_off'   => esc_html__( 'Off', 'optimax-core' ),
+  'default'     => 'yes',
+  'description' => esc_html__( 'Enable or disable autoplay. Default: On', 'optimax-core' ),
+],
+[
+  'type'        => Controls_Manager::SWITCHER,
+  'id'          => 'slider_stop_on_hover',
+  'label'       => esc_html__( 'Stop on Hover', 'optimax-core' ),
+  'label_on'    => esc_html__( 'On', 'optimax-core' ),
+  'label_off'   => esc_html__( 'Off', 'optimax-core' ),
+  'default'     => 'yes',
+  'description' => esc_html__( 'Stop autoplay on mouse hover. Default: On', 'optimax-core' ),
+  'condition'   => [ 'slider_autoplay' => 'yes' ],
+],
+[
+  'type'    => Controls_Manager::SELECT2,
+  'id'      => 'slider_interval',
+  'label'   => esc_html__( 'Autoplay Interval', 'optimax-core' ),
+  'options' => [
+    '5000' => esc_html__( '5 Seconds', 'optimax-core' ),
+    '4000' => esc_html__( '4 Seconds', 'optimax-core' ),
+    '3000' => esc_html__( '3 Seconds', 'optimax-core' ),
+    '2000' => esc_html__( '2 Seconds', 'optimax-core' ),
+    '1000' => esc_html__( '1 Second',  'optimax-core' ),
+  ],
+  'default' => '5000',
+  'description' => esc_html__( 'Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds', 'optimax-core' ),
+  'condition'   => [ 'slider_autoplay' => 'yes' ],
+],
+[
+  'type'    => Controls_Manager::NUMBER,
+  'id'      => 'slider_autoplay_speed',
+  'label'   => esc_html__( 'Autoplay Slide Speed', 'optimax-core' ),
+  'default' => 200,
+  'description' => esc_html__( 'Slide speed in milliseconds. Default: 200', 'optimax-core' ),
+  'condition'   => [ 'slider_autoplay' => 'yes' ],
+],
+[
+  'type'        => Controls_Manager::SWITCHER,
+  'id'          => 'slider_loop',
+  'label'       => esc_html__( 'Loop', 'optimax-core' ),
+  'label_on'    => esc_html__( 'On', 'optimax-core' ),
+  'label_off'   => esc_html__( 'Off', 'optimax-core' ),
+  'default'     => 'yes',
+  'description' => esc_html__( 'Loop to first item. Default: On', 'optimax-core' ),
+],
+[
+  'mode' => 'section_end',
+],
+
 ]]></content>
 <tabTrigger>elowl1</tabTrigger>
-<description>owl carousel field</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
+<description>elowl1</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
 </snippet>

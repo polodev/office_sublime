@@ -1,14 +1,14 @@
 <snippet>
 <content><![CDATA[
-array(
+[
   'type'    => Controls_Manager::COLOR,
-  'id'      => '${1:id}',
-  'label'   => esc_html__( '${2:Label}', 'optimax-core' ),
+  'id'      => 'id',
+  'label'   => esc_html__( 'Label', 'optimax-core' ),
   'default' => '#444444',
-  'selectors' => array( '{{WRAPPER}} .rtin-${0}' => 'color: {{VALUE}}' ),
-),
+  'selectors' => [ '{{WRAPPER}} .rtin-' => 'color: {{VALUE}}' ],
+],
 ]]></content>
 <tabTrigger>elcolor</tabTrigger>
 <description>el color</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.array.php, punctuation.section.array.begin.php</scope>
 </snippet>
