@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+[
+  'type'        => Controls_Manager::ICONS,
+  'id'          => 'icon_class',
+  'label'       => esc_html__( 'Icon', 'optimax-core' ),
+  'condition'   => [ 'has_icon' => 'yes' ],
+  'default'     => [
+    'value' => "fas fa-arrow-circle-right",
+  ],
+],
+]]></content>
+<tabTrigger>elicons</tabTrigger>
+<description>el icons</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, punctuation.section.array.begin.php</scope>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-'condition' => [ 'other_id' => [ 'other_id_key',  ] ],
+'condition' => [ '${1:other_id}' => [ '${2:other_id_key}'${3:, }] ],
 ]]></content>
 <tabTrigger>elcondition2</tabTrigger>
 <description>el condition 2</description>
