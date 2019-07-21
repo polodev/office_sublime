@@ -1,48 +1,52 @@
 <snippet>
 <content><![CDATA[
-
 // Responsive Columns for general
 // it will generate bootstrap column
 [
   'mode'    => 'section_start',
-  'condition'   => [ 'style' => [ 'style1', 'style2', 'style3', 'style5'] ],
   'id'      => 'sec_responsive',
   'label'   => esc_html__( 'Number of Responsive Columns', 'optimax-core' ),
 ],
 [
   'type'    => Controls_Manager::SELECT2,
-  'id'      => 'col_lg',
+  'id'      => 'col_xl',
   'label'   => esc_html__( 'Desktops: > 1199px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '4',
 ],
 [
   'type'    => Controls_Manager::SELECT2,
-  'id'      => 'col_md',
+  'id'      => 'col_lg',
   'label'   => esc_html__( 'Desktops: > 991px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '4',
 ],
 [
   'type'    => Controls_Manager::SELECT2,
-  'id'      => 'col_sm',
+  'id'      => 'col_md',
   'label'   => esc_html__( 'Tablets: > 767px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '6',
 ],
 [
   'type'    => Controls_Manager::SELECT2,
-  'id'      => 'col_xs',
-  'label'   => esc_html__( 'Phones: < 768px', 'optimax-core' ),
+  'id'      => 'col_sm',
+  'label'   => esc_html__( 'Phones: > 576px', 'optimax-core' ),
+  'options' => \$this->rt_translate['cols'],
+  'default' => '12',
+],
+[
+  'type'    => Controls_Manager::SELECT2,
+  'id'      => 'col',
+  'label'   => esc_html__( 'Phones: < 576px', 'optimax-core' ),
   'options' => \$this->rt_translate['cols'],
   'default' => '12',
 ],
 [
   'mode' => 'section_end',
 ],
-
 ]]></content>
 <tabTrigger>elresponsive</tabTrigger>
-<description>el responsive</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php</scope>
+<description>elementor responsive column</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
 </snippet>

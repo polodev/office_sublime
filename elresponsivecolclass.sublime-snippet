@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-\$col_class = "col-lg-{\$data['col_lg']} col-md-{\$data['col_md']} col-sm-{\$data['col_sm']} col-xs-{\$data['col_xs']}";
+\$col_class = "col-xl-{\$col_xl} col-lg-{\$col_lg} col-md-{\$col_md} col-sm-{\$col_sm} col-{\$col}";
 ]]></content>
 <tabTrigger>elresponsivecolclass</tabTrigger>
-<description>el col class</description>
+<description></description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
 </snippet>
