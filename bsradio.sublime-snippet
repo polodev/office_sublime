@@ -5,7 +5,7 @@
   <label class="form-check-label" for="${2}">${0}</label>
 </div>
 ]]></content>
-<tabTrigger>bsradio</tabTrigger>
+<tabTrigger>blradio</tabTrigger>
 <description></description>
-<scope>text.html.vue</scope>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

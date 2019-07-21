@@ -11,5 +11,5 @@
 ]]></content>
 <tabTrigger>blcheck</tabTrigger>
 <description>bulma checkbox</description>
-<scope>text.html.basic, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
 </snippet>
