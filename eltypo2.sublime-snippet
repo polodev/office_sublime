@@ -5,19 +5,31 @@
   'type'           => Group_Control_Typography::get_type(),
   'name'           => '${1:title_typo}',
   'label'          => esc_html__( '${2:Title} Typography', 'optimax-core' ),
-  'selector'       => '{{WRAPPER}}  ${3:.rtin-title}',
-  'fields_options' => Helper::typo_fields([
-    'font_family'      => 'Poppins',
-    'font_size'        => '4',
-    'font_weight'      => '500',
-    'line_height'      => '4.8',
-    'font_size_unit'   => 'rem',
-    'line_height_unit' => 'rem',
-  ]),
+  'selector'       => '{{WRAPPER}}  ${3:.rtin-item-title}',
+  'fields_options' => [
+    'font_family' => [
+        'default' => 'Poppins',
+    ],
+    'font_size' => [
+        'default' => [
+            'unit' => 'rem',
+            'size' => '4',
+        ],
+    ],
+    'font_weight' => [
+        'default' => '300',
+    ],
+    'line_height' => [
+        'default' => [
+            'unit' => 'rem',
+            'size' => '4.8',
+        ],
+    ],
+  ],
 ],
 
 ]]></content>
-<tabTrigger>eltypo</tabTrigger>
+<tabTrigger>eltypo2</tabTrigger>
 <description>el typography</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, punctuation.section.array.begin.php</scope>
 </snippet>

@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+[
+	'mode'    => 'section_start',
+	'id'      => '${1:id}',
+	'label'   => esc_html__( '${2:label}', 'optimax-core' ),
+	'tab'     => Controls_Manager::TAB_STYLE,
+],
+${0}
+[
+  'mode' => 'section_end',
+],
+]]></content>
+<tabTrigger>elsectionse</tabTrigger>
+<description>el section start and end</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+<content><![CDATA[
+[
+  'type' => Controls_Manager::SLIDER,
+  'mode' => 'responsive',
+  'id'      => '${1:unique_id}',
+  'label'   => __( '${2:label}', 'optimax-core' ),
+  'size_units' => ['px', '%'],
+  'range' => [
+    'px' => [
+      'min' => 0,
+      'max' => 2000,
+    ],
+    '%' => [
+      'min' => 0,
+      'max' => 100,
+    ],
+  ],
+  'default' => [
+    'unit' => '%',
+    'size' => 50,
+  ],
+  'selectors' => [
+    '{{WRAPPER}} .rtel-background-image' => 'width: {{SIZE}}{{UNIT}};',
+  ]
+],
+
+]]></content>
+<tabTrigger>elslider</tabTrigger>
+<description>elementor control slider</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, punctuation.section.array.begin.php</scope>
+</snippet>

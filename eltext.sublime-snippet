@@ -4,10 +4,10 @@
   'type'        => Controls_Manager::TEXT,
   'id'          => '${1:id}',
   'label'       => esc_html__( '${2:label}', 'optimax-core' ),
-  'default'     => '${0:default_text}',
+  'default'     => "${3:default}",
 ],
 ]]></content>
 <tabTrigger>eltext</tabTrigger>
-<description>el text</description>
+<description>el tex</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php</scope>
 </snippet>

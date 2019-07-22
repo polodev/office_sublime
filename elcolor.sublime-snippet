@@ -2,10 +2,10 @@
 <content><![CDATA[
 [
   'type'    => Controls_Manager::COLOR,
-  'id'      => 'id',
-  'label'   => esc_html__( 'Label', 'optimax-core' ),
+  'id'      => '${1:id}',
+  'label'   => esc_html__( '${2:Label}', 'optimax-core' ),
   'default' => '#444444',
-  'selectors' => [ '{{WRAPPER}} .rtin-' => 'color: {{VALUE}}' ],
+  'selectors' => [ '{{WRAPPER}} .rtin-${3:selector}' => 'color: {{VALUE}}' ],
 ],
 ]]></content>
 <tabTrigger>elcolor</tabTrigger>
