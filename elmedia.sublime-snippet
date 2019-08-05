@@ -2,8 +2,8 @@
 <content><![CDATA[
 [
   'type'        => Controls_Manager::MEDIA,
-  'id'          => 'id',
-  'label'       => esc_html__( 'label', 'optimax-core' ),
+  'id'          => '${1:id}',
+  'label'       => esc_html__( '${2:label}', 'optimax-core' ),
   'default'     => [
     'url' => Utils::get_placeholder_image_src(),
   ]

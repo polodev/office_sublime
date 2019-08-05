@@ -6,7 +6,7 @@
   'name'           => '${1:title_typo}',
   'label'          => esc_html__( '${2:Title} Typography', 'optimax-core' ),
   'selector'       => '{{WRAPPER}}  ${3:.rtin-title}',
-  'fields_options' => Helper::typo_fields([
+  'fields_options' => Helper::fields_options_elementor([
     'font_family'      => 'Poppins',
     'font_size'        => '4',
     'font_weight'      => '500',

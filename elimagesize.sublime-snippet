@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+[
+  'type'      => Group_Control_Image_Size::get_type(),
+  'mode'      => 'group',
+  'id'        => '${1:id}', // not much important in this case
+  'label'     => esc_html__( '${2} image size', 'optimax-core' ),    
+  'name'      => '${3:previous_image_id}', // // Usage: `{name}_size` and `{name}_custom_dimension`, in this case `thumbnail_size` and `thumbnail_custom_dimension`.
+  'separator' => 'none',        
+],
+]]></content>
+<tabTrigger>elimagesize</tabTrigger>
+<description>elementor image size</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, punctuation.section.array.begin.php</scope>
+</snippet>
