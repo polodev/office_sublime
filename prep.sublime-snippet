@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
 echo '<pre>__ ${1} __';
-var_dump(${1});
-echo '</pre>';
+var_dump(${1}${2});
+echo '</pre>';${0}
 ]]></content>
 <tabTrigger>prep</tabTrigger>
 <description>echo pre tag</description>
