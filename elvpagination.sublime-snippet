@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<?php if ( \$pagination_display == 'yes' ): ?>
+  <div class="pagination-layout1">
+    <?php get_template_part( 'template-parts/pagination' ) ?>
+  </div>
+<?php endif ?>
+<?php Helper::wp_reset_temp_query( \$temp ); ?>
+]]></content>
+<tabTrigger>elvpagination</tabTrigger>
+<description>elv pagination</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

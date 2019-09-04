@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$query = new \WP_Query( \$args );
+\$temp = Helper::wp_set_temp_query( \$query );
+]]></content>
+<tabTrigger>elvquery1</tabTrigger>
+<description>elvquery1</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

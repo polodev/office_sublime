@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+\$paged = 1;
+if ( get_query_var('paged') ) {
+  \$paged = get_query_var('paged');
+} else if ( get_query_var('page') ) {
+  \$paged = get_query_var('page');
+}
+]]></content>
+<tabTrigger>elvpaged</tabTrigger>
+<description>elv paged condition</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

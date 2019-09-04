@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+[
+  'mode'            => 'group',
+  'separator'       => 'before',
+  'label_block'     => true,
+  'type'            => Group_Control_Background::get_type(),
+  'name'            => '${1}_background',
+  'types'           => [ 'gradient', ${2:'classic'} ],
+  'fields_options'  => [
+    'background' => [
+      'label' => esc_html__( '${3} Background', 'optimax-core' ),
+    ],
+  ],
+  'selector'        => '
+    {{WRAPPER}} .selector ${0}
+  ',
+],
+]]></content>
+<tabTrigger>elbackground</tabTrigger>
+<description>el background</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, punctuation.section.array.begin.php</scope>
+</snippet>

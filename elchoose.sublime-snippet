@@ -23,7 +23,9 @@
     ],
   ],
   'default' => 'left',
-  'selectors' => [ '{{WRAPPER}} .rtin-text' => 'text-align: {{VALUE}}' ],
+  'selectors' => [
+    '{{WRAPPER}} .rtin-text' => 'text-align: {{VALUE}}',
+  ],
 ],
 ]]></content>
 <tabTrigger>elchoose</tabTrigger>
