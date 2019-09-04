@@ -3,18 +3,18 @@
 [
   'mode'           => 'group',
   'type'           => Group_Control_Typography::get_type(),
-  'name'           => '${1:title_typo}',
+  'name'           => '${1:title}_typo',
   'label'          => esc_html__( '${2:Title} Typography', 'optimax-core' ),
   'selector'       => '
     {{WRAPPER}}  ${3:.rtin-title}
   ',
   'fields_options' => Helper::fields_options_elementor([
     'font_family'      => 'Poppins',
-    'font_size'        => '4',
+    'font_size'        => '20',
     'font_weight'      => '500',
-    'line_height'      => '4.8',
-    'font_size_unit'   => 'rem',
-    'line_height_unit' => 'rem',
+    'line_height'      => '30',
+    'font_size_unit'   => 'px',
+    'line_height_unit' => 'px',
   ]),
 ],
 

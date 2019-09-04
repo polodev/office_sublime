@@ -3,7 +3,7 @@
 [
 	'type'    => Controls_Manager::DIMENSIONS,
 	'size_units' => [ 'px', '%', 'em' ],
-	'id'      => '${1}content_margin',
+	'id'      => '${1}_content_margin',
 	'label'   => __( '${2} Margin', 'optimax-core' ),                 
 	'selectors' => [
 		'{{WRAPPER}} .my-selector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
