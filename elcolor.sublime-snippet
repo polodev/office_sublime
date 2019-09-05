@@ -1,9 +1,9 @@
 <snippet>
 <content><![CDATA[
 [
-  'type'    => Controls_Manager::COLOR,
-  'id'      => '${1:title}_color',
-  'label'   => esc_html__( '${2:Title} Color', 'optimax-core' ),
+  'type'      => Controls_Manager::COLOR,
+  'id'        => '${1:title}_color',
+  'label'     => esc_html__( '${2:Title} Color', 'optimax-core' ),
   'selectors' => [
     '{{WRAPPER}} ${3:selector}' => 'color: {{VALUE}}'
   ],

@@ -1,14 +1,14 @@
 <snippet>
 <content><![CDATA[
 [
-	'type'    => Controls_Manager::DIMENSIONS,
+	'type'       => Controls_Manager::DIMENSIONS,
 	'size_units' => [ 'px', '%', 'em' ],
-	'id'      => '${1}_content_margin',
-	'label'   => __( '${2} Margin', 'optimax-core' ),                 
-	'selectors' => [
+	'id'         => '${1}_content_margin',
+	'label'      => __( '${2} Margin', 'optimax-core' ),                 
+	'selectors'  => [
 		'{{WRAPPER}} .my-selector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
 	],
-	'separator' => 'before',
+	'separator'  => 'before',
 ],
 ]]></content>
 <tabTrigger>eldimension</tabTrigger>
