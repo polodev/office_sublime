@@ -2,9 +2,9 @@
 <content><![CDATA[
 [
 	'mode'    => 'section_start',
-	'id'      => '${1:id}',
-	'label'   => esc_html__( '${2:label}', 'optimax-core' ),
-	${3:'tab'     => Controls_Manager::TAB_STYLE,}${0}
+	'id'      => '${2:id}',
+	'label'   => esc_html__( '${3:label}', '${1:domain}' ),
+	${4:'tab'     => Controls_Manager::TAB_STYLE,}${0}
 ],
 
 ]]></content>

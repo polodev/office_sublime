@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 class Class_Name extends Custom_Widget_Base {
   public function __construct( \$data = [], \$args = null ){
-    \$this->rt_name = esc_html__( 'name', 'optimax-core' );
+    \$this->rt_name = esc_html__( 'name', '${1:domain}' );
     \$this->rt_base = 'rt-name-name';
     parent::__construct( \$data, \$args );
   }
@@ -29,7 +29,7 @@ class Class_Name extends Custom_Widget_Base {
       [
         'mode'    => 'section_start',
         'id'      => 'sec_general',
-        'label'   => esc_html__( 'General', 'optimax-core' ),
+        'label'   => esc_html__( 'General', '${1:domain}' ),
       ],
       
       [

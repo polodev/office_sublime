@@ -3,7 +3,7 @@
 [
   'type'        => Controls_Manager::NUMBER,
   'id'          => 'id',
-  'label'       => esc_html__( 'label', 'optimax-core' ),
+  'label'       => esc_html__( 'label', '${1:domain}' ),
   'default'     => 'default',
 ],
 ]]></content>

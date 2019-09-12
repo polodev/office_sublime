@@ -3,9 +3,9 @@
 [
   'type'    => Controls_Manager::SELECT2,
   'id'      => 'id',
-  'label'   => esc_html__( 'label', 'optimax-core' ),
+  'label'   => esc_html__( 'label', '${1:domain}' ),
   'options' => [
-    'key' => esc_html__( 'value', 'optimax-core' ),
+    'key' => esc_html__( 'value', '${1:domain}' ),
   ],
   'default' => 'key',
 ],

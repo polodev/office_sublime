@@ -3,10 +3,10 @@
 [
 	'type'       => Controls_Manager::DIMENSIONS,
 	'size_units' => [ 'px', '%', 'em' ],
-	'id'         => '${1}_content_margin',
-	'label'      => __( '${2} Margin', 'optimax-core' ),                 
+	'id'         => '${2}_content_margin',
+	'label'      => __( '${3} Margin', '${1:domain}' ),                 
 	'selectors'  => [
-		'{{WRAPPER}} .my-selector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+		'{{WRAPPER}} ${4:selector}' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
 	],
 	'separator'  => 'before',
 ],

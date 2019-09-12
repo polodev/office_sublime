@@ -3,9 +3,9 @@
 [
   'type'      => Group_Control_Image_Size::get_type(),
   'mode'      => 'group',
-  'id'        => '${1:id}', // not much important in this case
-  'label'     => esc_html__( '${2} image size', 'optimax-core' ),    
-  'name'      => '${3:previous_image_id}', // // Usage: `{name}_size` and `{name}_custom_dimension`, in this case `thumbnail_size` and `thumbnail_custom_dimension`.
+  'id'        => '${2:id}', // not much important in this case
+  'label'     => esc_html__( '${3} image size', '${1:domain}' ),    
+  'name'      => '${4:name}', // Usage: `{name}_size` and `{name}_custom_dimension`, in this case `thumbnail_size` and `thumbnail_custom_dimension`.
   'separator' => 'none',        
 ],
 ]]></content>

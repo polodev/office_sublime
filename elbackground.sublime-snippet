@@ -5,11 +5,11 @@
   'separator'       => 'before',
   'label_block'     => true,
   'type'            => Group_Control_Background::get_type(),
-  'name'            => '${1}_background',
-  'types'           => [ 'gradient', ${2:'classic'} ],
+  'name'            => '${2}_background',
+  'types'           => [ 'gradient', ${3:'classic'} ],
   'fields_options'  => [
     'background' => [
-      'label' => esc_html__( '${3} Background', 'optimax-core' ),
+      'label' => esc_html__( '${4} Background', '${1:domain}' ),
     ],
   ],
   'selector'        => '

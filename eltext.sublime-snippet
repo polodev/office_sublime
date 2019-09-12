@@ -2,9 +2,9 @@
 <content><![CDATA[
 [
   'type'        => Controls_Manager::TEXT,
-  'id'          => '${1:id}',
-  'label'       => esc_html__( '${2:label}', 'optimax-core' ),
-  'default'     => "${3:default}",
+  'id'          => '${2:id}',
+  'label'       => esc_html__( '${3:label}', '${1:domain}' ),
+  'default'     => "${4:default}",
 ],
 ]]></content>
 <tabTrigger>eltext</tabTrigger>

@@ -3,22 +3,22 @@
 [
   'type'    => Controls_Manager::CHOOSE,
   'id'      => 'id',
-  'label'   => esc_html__( 'label', 'optimax-core' ),
+  'label'   => esc_html__( 'label', '${1:domain}' ),
   'options' => [
     'left' => [
-      'title' => esc_html__( 'Left', 'elementor' ),
+      'title' => esc_html__( 'Left', '${1:domain}' ),
       'icon' => 'fas fa-align-left',
     ],
     'center' => [
-      'title' => esc_html__( 'Center', 'elementor' ),
+      'title' => esc_html__( 'Center', '${1:domain}' ),
       'icon' => 'fas fa-align-center',
     ],
     'right' => [
-      'title' => esc_html__( 'Right', 'elementor' ),
+      'title' => esc_html__( 'Right', '${1:domain}' ),
       'icon' => 'fas fa-align-right',
     ],
     'justify' => [
-      'title' => esc_html__( 'Justified', 'elementor' ),
+      'title' => esc_html__( 'Justified', '${1:domain}' ),
       'icon' => 'fas fa-align-justify',
     ],
   ],

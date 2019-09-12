@@ -3,10 +3,10 @@
 [
   'mode'           => 'group',
   'type'           => Group_Control_Typography::get_type(),
-  'name'           => '${1:title_typo}',
-  'label'          => esc_html__( '${2:Title} Typography', 'optimax-core' ),
+  'name'           => '${2:title_typo}',
+  'label'          => esc_html__( '${3:Title} Typography', '${1:domain}' ),
   'selector'       => '
-    {{WRAPPER}}  ${3:.rtin-item-title}
+    {{WRAPPER}}  ${4:.rtin-item-title}
   ',
   'fields_options' => [
     'font_family' => [

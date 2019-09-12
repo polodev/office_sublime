@@ -3,7 +3,7 @@
 [
   'type'        => Controls_Manager::ICONS,
   'id'          => 'icon_class',
-  'label'       => esc_html__( 'Icon', 'optimax-core' ),
+  'label'       => esc_html__( 'Icon', '${1:domain}' ),
   'condition'   => [ 'has_icon' => 'yes' ],
   'default'     => [
     'value' => "fas fa-arrow-circle-right",

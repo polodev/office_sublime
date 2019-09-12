@@ -2,10 +2,10 @@
 <content><![CDATA[
 [
   'type'        => Controls_Manager::SWITCHER,
-  'id'          => '${1:id}',
-  'label_on'    => esc_html__( 'Show', 'optimax-core' ),
-  'label_off'   => esc_html__( 'Hide', 'optimax-core' ),
-  'label'       => esc_html__( '${2:label}', 'optimax-core' ),
+  'id'          => '${2:id}',
+  'label_on'    => esc_html__( 'Show', '${1:domain}' ),
+  'label_off'   => esc_html__( 'Hide', '${1:domain}' ),
+  'label'       => esc_html__( '${3:label}', '${1:domain}' ),
   'default'     => "yes",
 ],
 ]]></content>

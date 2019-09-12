@@ -2,8 +2,8 @@
 <content><![CDATA[
 [
   'type'        => Controls_Manager::URL,
-  'id'          => '${1:id}',
-  'label'       => esc_html__( '${2:label}', 'optimax-core' ),
+  'id'          => '${2:id}',
+  'label'       => esc_html__( '${3:label}', '${1:domain}' ),
   'default'     => [ 'url' => '#'],
 ],
 

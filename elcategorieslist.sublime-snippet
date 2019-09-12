@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 \$categories = get_categories();
-\$category_dropdown = [ '0' => esc_html__( 'All Categories', 'optimax-core' ) ];
+\$category_dropdown = [ '0' => esc_html__( 'All Categories', '${1:domain}' ) ];
 
 foreach ( \$categories as \$category ) {
   \$category_dropdown[\$category->term_id] = \$category->name;

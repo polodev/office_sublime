@@ -2,18 +2,18 @@
 <content><![CDATA[
 [
   'type'    => Controls_Manager::REPEATER,
-  'id'      => 'id',
-  'label'   => esc_html__( 'label', 'optimax-core' ),
+  'id'      => '${2:id}',
+  'label'   => esc_html__( 'label', '${1:domain}' ),
   'fields'  => [
     [
       'type'  => Controls_Manager::MEDIA,
       'name'  => 'image',
-      'label' => esc_html__( 'Image', 'optimax-core' ),
+      'label' => esc_html__( 'Image', '${1:domain}' ),
     ],
     [
       'type'  => Controls_Manager::TEXT,
       'name'  => 'url',
-      'label' => esc_html__( 'URL(optional)', 'optimax-core' ),
+      'label' => esc_html__( 'URL(optional)', '${1:domain}' ),
     ],
   ],
 ],

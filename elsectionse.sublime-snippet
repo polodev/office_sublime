@@ -2,8 +2,8 @@
 <content><![CDATA[
 [
 	'mode'    => 'section_start',
-	'id'      => '${1:id}_style',
-	'label'   => esc_html__( '${2:label} Style', 'optimax-core' ),
+	'id'      => '${2:id}_style',
+	'label'   => esc_html__( '${3:label} Style', '${1:domain}' ),
 	'tab'     => Controls_Manager::TAB_STYLE,
 ],
 ${0}

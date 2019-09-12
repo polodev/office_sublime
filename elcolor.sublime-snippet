@@ -2,10 +2,10 @@
 <content><![CDATA[
 [
   'type'      => Controls_Manager::COLOR,
-  'id'        => '${1:title}_color',
-  'label'     => esc_html__( '${2:Title} Color', 'optimax-core' ),
+  'id'        => '${2:title}_color',
+  'label'     => esc_html__( '${3:Title} Color', '${1:domain}' ),
   'selectors' => [
-    '{{WRAPPER}} ${3:selector}' => 'color: {{VALUE}}'
+    '{{WRAPPER}} ${4:selector}' => 'color: {{VALUE}}'
   ],
 ],
 ]]></content>
