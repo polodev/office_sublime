@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+\$excerpt_word_limit = 14;
+if ( isset( \$no_of_excerpt_words ) && \$no_of_excerpt_words) {
+  \$excerpt_word_limit = \$no_of_excerpt_words;
+}
+]]></content>
+<tabTrigger>elvexcerpt</tabTrigger>
+<description></description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

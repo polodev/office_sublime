@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+extract( \$data );
+]]></content>
+<tabTrigger>elvextd</tabTrigger>
+<description>extract data</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, support.function.array.php</scope>
+</snippet>

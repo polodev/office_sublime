@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-<?php if ( \$pagination_display == 'yes' ): ?>
+<?php if ( isset( \$pagination_display ) &&  \$pagination_display == 'yes' ): ?>
   <div class="pagination-layout1">
     <?php get_template_part( 'template-parts/pagination' ) ?>
   </div>

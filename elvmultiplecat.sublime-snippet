@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+\$bool = isset(\$multiple_category);
+\$bool = \$bool && is_array(\$multiple_category);
+\$bool = \$bool && count( \$multiple_category ) ;
+if (\$bool) {
+  \$args['category__in'] = \$multiple_category;
+}
+]]></content>
+<tabTrigger>elvmultiplecat</tabTrigger>
+<description></description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>
