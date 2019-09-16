@@ -1,0 +1,56 @@
+<snippet>
+<content><![CDATA[
+// ${2:title}
+array(
+  'mode'      => 'section_start',
+  'id'        => '${2:title}_style',
+  'label'     => esc_html__( '${2:title} Style', '${1:domain}' ),
+  'tab'       => Controls_Manager::TAB_STYLE,
+  'condition' => [ 'style' => [ 'style1', 'style2' ] ],
+),
+array(
+  'mode'           => 'group',
+  'type'           => Group_Control_Typography::get_type(),
+  'name'           => '${2:title}_typo',
+  'label'          => esc_html__( '${2:title} Typography', '${1:domain}' ),
+  'selector'       => '
+    {{WRAPPER}}  noselector,
+    {{WRAPPER}}  noselector
+  ',
+),
+array(
+  'type'      => Controls_Manager::COLOR,
+  'id'        => '${2:title}_color',
+  'label'     => esc_html__( '${2:title} Color', '${1:domain}' ),
+  'selectors' => array(
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+  ),
+),
+array(
+  'type'      => Controls_Manager::COLOR,
+  'id'        => '${2:title}_hover_color',
+  'label'     => esc_html__( '${2:title} Hover Color', '${1:domain}' ),
+  'selectors' => array(
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+  ),
+),
+array(
+  'type'       => Controls_Manager::DIMENSIONS,
+  'size_units' => array( 'px', '%', 'em' ),
+  'id'         => '${2:title}_content_margin',
+  'label'      => __( '${2:title} Margin', '${1:domain}' ),                 
+  'selectors'  => array(
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+  ),
+  'separator'  => 'before',
+),      
+array(
+  'mode' => 'section_end',
+),
+]]></content>
+<tabTrigger>sttitle</tabTrigger>
+<description>style tab for title and subtitle</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
+</snippet>

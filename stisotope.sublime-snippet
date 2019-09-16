@@ -1,0 +1,55 @@
+<snippet>
+<content><![CDATA[
+// isotope navigation 
+array(
+  'mode'      => 'section_start',
+  'id'        => 'isotope_section_style',
+  'label'     => esc_html__( 'Isotope Navigation Style', 'koncrete-core' ),
+  'tab'       => Controls_Manager::TAB_STYLE,
+  'condition' => array( 'style' => array( 'style5', ) ),
+),
+array(
+  'mode'           => 'group',
+  'type'           => Group_Control_Typography::get_type(),
+  'name'           => 'isotope_navigation_typo',
+  'label'          => esc_html__( 'Navigation Title Typography', 'koncrete-core' ),
+  'selector'       => '
+    {{WRAPPER}}  noselector,
+    {{WRAPPER}}  noselector
+  ',
+),
+array(
+  'type'      => Controls_Manager::COLOR,
+  'id'        => 'isotope_navigation_color',
+  'label'     => esc_html__( 'Isotope Navigation Color', 'koncrete-core' ),
+  'selectors' => array(
+    '{{WRAPPER}}  noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}}  noselector' => 'color: {{VALUE}}',
+  ),
+),
+array(
+  'type'      => Controls_Manager::COLOR,
+  'id'        => 'isotope_navigation_hover_color',
+  'label'     => esc_html__( 'Isotope Navigation Hover Color', 'koncrete-core' ),
+  'selectors' => array(
+    '{{WRAPPER}}  noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}}  noselector' => 'color: {{VALUE}}',
+  ),
+),
+array(
+  'type'      => Controls_Manager::COLOR,
+  'id'        => 'isotope_navigation_border_color',
+  'label'     => esc_html__( 'Isotope Title Border color', 'koncrete-core' ),
+  'selectors' => array(
+    '{{WRAPPER}} noselector' => 'background-color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'background-color: {{VALUE}}',
+  ),
+),
+array(
+  'mode' => 'section_end',
+),
+]]></content>
+<tabTrigger>stisotope</tabTrigger>
+<description>style tab isotope</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
+</snippet>

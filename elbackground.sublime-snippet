@@ -6,14 +6,17 @@
   'label_block'     => true,
   'type'            => Group_Control_Background::get_type(),
   'name'            => '${2}_background',
-  'types'           => [ 'gradient', ${3:'classic'} ],
+  'types'           => [ ${3}'classic', 'gradient', ],
   'fields_options'  => [
     'background' => [
       'label' => esc_html__( '${4} Background', '${1:domain}' ),
     ],
   ],
   'selector'        => '
-    {{WRAPPER}} .selector ${0}
+    {{WRAPPER}} .noselector ${0},
+    {{WRAPPER}} .noselector,
+    {{WRAPPER}} .noselector,
+    {{WRAPPER}} .noselector
   ',
 ],
 ]]></content>

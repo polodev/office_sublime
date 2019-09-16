@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$col_class = "col-xl-{\$col_xl} col-lg-{\$col_lg} col-md-{\$col_md} col-sm-{\$col_sm} col-{\$col}";
+]]></content>
+<tabTrigger>elvcolclass2</tabTrigger>
+<description>elvcolclass2</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>
