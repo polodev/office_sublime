@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-// ${2:title}
+// ${2:title} Style
 array(
   'mode'      => 'section_start',
   'id'        => '${2:title}_style',
@@ -15,6 +15,10 @@ array(
   'label'          => esc_html__( '${2:title} Typography', '${1:domain}' ),
   'selector'       => '
     {{WRAPPER}}  noselector,
+    {{WRAPPER}}  noselector,
+    {{WRAPPER}}  noselector,
+    {{WRAPPER}}  noselector,
+    {{WRAPPER}}  noselector,
     {{WRAPPER}}  noselector
   ',
 ),
@@ -25,6 +29,9 @@ array(
   'selectors' => array(
     '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
     '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
   ),
 ),
 array(
@@ -32,6 +39,9 @@ array(
   'id'        => '${2:title}_hover_color',
   'label'     => esc_html__( '${2:title} Hover Color', '${1:domain}' ),
   'selectors' => array(
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
+    '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
     '{{WRAPPER}} noselector' => 'color: {{VALUE}}',
   ),
 ),
@@ -41,6 +51,11 @@ array(
   'id'         => '${2:title}_content_margin',
   'label'      => __( '${2:title} Margin', '${1:domain}' ),                 
   'selectors'  => array(
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
+    '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
     '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
     '{{WRAPPER}} noselector' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',                    
   ),
