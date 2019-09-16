@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-'condition'   => [ '${1:other_id}' => '${2:value}' ],${0}
+'condition'   => [ '${1:style}' => '${2:style1}' ],${0}
 ]]></content>
 <tabTrigger>elcondition1</tabTrigger>
 <description>elementor scaler field condition</description>
