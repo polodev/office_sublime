@@ -13,10 +13,10 @@
     ],
   ],
   'selector'        => '
-    {{WRAPPER}} .noselector ${0},
-    {{WRAPPER}} .noselector,
-    {{WRAPPER}} .noselector,
-    {{WRAPPER}} .noselector
+    {{WRAPPER}} noselector ${0},
+    {{WRAPPER}} noselector,
+    {{WRAPPER}} noselector,
+    {{WRAPPER}} noselector
   ',
 ],
 ]]></content>

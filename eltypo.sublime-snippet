@@ -8,14 +8,6 @@
   'selector'       => '
     {{WRAPPER}}  ${4:.rtin-title}
   ',
-  'fields_options' => Helper::fields_options_elementor([
-    'font_family'      => 'Poppins',
-    'font_size'        => '20',
-    'font_weight'      => '500',
-    'line_height'      => '30',
-    'font_size_unit'   => 'px',
-    'line_height_unit' => 'px',
-  ]),
 ],
 
 ]]></content>

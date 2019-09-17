@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+'condition' => [ 'style' => [ 'style1', 'style2', 'style3', 'style4', 'style5', 'style6', ] ],
+]]></content>
+<tabTrigger>elconditionall</tabTrigger>
+<description>el condition all</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.array.php, meta.array.php, string.quoted.single.php, punctuation.definition.string.begin.php</scope>
+</snippet>
