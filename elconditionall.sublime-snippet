@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-'condition' => [ 'style' => [ 'style1', 'style2', 'style3', 'style4', 'style5', 'style6', ] ],
+'condition' => [ 'style' => [ 'style1', 'style2', 'style3', 'style4', 'style5', 'style6','style7',  ] ],
 ]]></content>
 <tabTrigger>elconditionall</tabTrigger>
 <description>el condition all</description>
