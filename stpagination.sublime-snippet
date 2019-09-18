@@ -35,8 +35,6 @@
     '{{WRAPPER}} .pagination-layout1 ul li.active span' => 'background: {{VALUE}}',
     '{{WRAPPER}} .pagination-layout1 ul li a:hover' => 'background: {{VALUE}}',
     '{{WRAPPER}} noselector' => 'background-color: {{VALUE}}',
-    '{{WRAPPER}} noselector' => 'background-color: {{VALUE}}',
-    '{{WRAPPER}} noselector' => 'background-color: {{VALUE}}',
   ],
 ],
 [

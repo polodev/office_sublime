@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$anchor     = Helper::generate_elementor_anchor( \$button_url, esc_html( \$button_text ) . '<i class="fa fa-angle-right"></i></a>', 'item-btn' );
+
+]]></content>
+<tabTrigger>elanchor1</tabTrigger>
+<description>el anchor for koncrete</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

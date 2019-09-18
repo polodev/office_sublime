@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+echo wp_kses_post( \$anchor );
+]]></content>
+<tabTrigger>elanchor2</tabTrigger>
+<description>anchor view</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, source.php, support.function.construct.php</scope>
+</snippet>
