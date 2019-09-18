@@ -21,7 +21,7 @@
     'size' => 50,
   ],
   'selectors'  => [
-    '{{WRAPPER}} .rtel-background-image' => 'width: {{SIZE}}{{UNIT}};',
+    '{{WRAPPER}} noselector' => 'width: {{SIZE}}{{UNIT}};',
   ]
 ],
 
