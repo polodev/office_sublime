@@ -6,7 +6,6 @@ array(
   'id'        => '${2:title}_style',
   'label'     => esc_html__( '${3}${2:title} Style', '${1:domain}' ),
   'tab'       => Controls_Manager::TAB_STYLE,
-  'condition' => [ 'style' => [ 'style1', 'style2' ] ],
 ),
 array(
   'mode'           => 'group',

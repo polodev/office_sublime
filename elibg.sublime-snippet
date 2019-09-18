@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+use Elementor\Group_Control_Background;
+]]></content>
+<tabTrigger>elibg</tabTrigger>
+<description>elementor import bg</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.use.php, keyword.other.use.php</scope>
+</snippet>

@@ -6,7 +6,6 @@ array(
   'id'        => 'isotope_section_style',
   'label'     => esc_html__( 'Isotope Navigation Style', 'koncrete-core' ),
   'tab'       => Controls_Manager::TAB_STYLE,
-  'condition' => array( 'style' => array( 'style5', ) ),
 ),
 array(
   'mode'           => 'group',

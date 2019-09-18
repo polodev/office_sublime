@@ -1,12 +1,12 @@
 <snippet>
 <content><![CDATA[
 [
-  'type' => Controls_Manager::SLIDER,
-  'mode' => 'responsive',
-  'id'      => '${2:unique_id}',
-  'label'   => __( '${3:label}', '${1:domain}' ),
+  'type'       => Controls_Manager::SLIDER,
+  'mode'       => 'responsive',
+  'id'         => '${2:unique_id}',
+  'label'      => __( '${3:label}', '${1:domain}' ),
   'size_units' => ['px', '%'],
-  'range' => [
+  'range'      => [
     'px' => [
       'min' => 0,
       'max' => 2000,
@@ -16,11 +16,11 @@
       'max' => 100,
     ],
   ],
-  'default' => [
+  'default'    => [
     'unit' => '%',
     'size' => 50,
   ],
-  'selectors' => [
+  'selectors'  => [
     '{{WRAPPER}} .rtel-background-image' => 'width: {{SIZE}}{{UNIT}};',
   ]
 ],
